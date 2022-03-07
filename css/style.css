@@ -130,6 +130,30 @@ table {
 }
 
 /*
+ANIMATIONS
+*/
+
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(200%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+/*
 GLOBAL
 */
 
@@ -221,7 +245,8 @@ STYLES
 */
 
 .container {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: fit-content;
   background-color: lightsalmon;
   margin-left: auto;
@@ -237,6 +262,7 @@ STYLES
 
 .photo {
   max-width: 100%;
+  animation: slideFromLeft 1s ease-in;
 }
 
 .bio {
@@ -306,7 +332,7 @@ STYLES
 */
 
   .container {
-    display: flex;
+    flex-direction: row;
     width: 100%;
   }
 
@@ -319,6 +345,15 @@ STYLES
     padding: 0 20px 20px 20px;
   }
 
+  .photo {
+    transform: scale(1);
+    transition: transform 500ms ease;
+  }
+
+  .photo:hover {
+    transform: scale(1.05);
+  }
+
   /*
 FOOTER
 */
@@ -326,4 +361,5 @@ FOOTER
   footer {
     font-size: 30px;
   }
+
 }
