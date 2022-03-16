@@ -270,6 +270,18 @@ STYLES
   padding: 20px;
 }
 
+.tech_skill {
+  height: 80px;
+  display: flex;
+  margin: auto;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.stars {
+  font-size: 30px;
+}
+
 .right {
   width: fit-content;
   padding: 20px;
