@@ -1,7 +1,7 @@
 'use strict'
 
 ($(document).ready(function () {
-    $("#about, #exp, #edu, #skills, #int, #lang, #soft, #it_courses, #it_webinars, #courses, #webinars, #hobby").hide();
+    $("#about, #exp, #edu, #skills, #int, #lang, #soft, #it_courses, #it_webinars, #it_projects, #courses, #webinars, #hobby").hide();
     $("#about_button").click(function(){
         $("#about").toggle();
     });
@@ -29,6 +29,9 @@
     });
     $("#it_webinars_button").click(function(){
         $("#it_webinars").toggle();
+    });
+    $("#it_projects_button").click(function(){
+        $("#it_projects").toggle();
     });
     $("#courses_button").click(function(){
         $("#courses").toggle();
