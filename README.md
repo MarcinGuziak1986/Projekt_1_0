@@ -1,4 +1,4 @@
 # Projekt_1_0
 
-CV / Resume
-HTML, CSS, JavaScript, jQuery
+| CV / Resume
+| HTML CSS JavaScript jQuery
