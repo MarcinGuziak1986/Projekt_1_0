@@ -138,10 +138,6 @@ header a:hover {
   width: 100%;
 }
 
-.photo {
-  animation: slideFromLeft 1s ease-in;
-}
-
 .right {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -189,6 +185,10 @@ STYLES
 
   .left {
     width: 360px;
+  }
+
+  .photo {
+    animation: slideFromLeft 1s ease-in;
   }
 
   .right {
