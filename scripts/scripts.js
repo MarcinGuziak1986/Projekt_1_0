@@ -1,8 +1,15 @@
 'use strict'
 
-($(document).ready(function () {
+    ($(document).ready(function () {
+    $("#info, #tech_skills").show();
     $("#about, #exp, #edu, #skills, #int, #lang, #soft, #it_courses, #it_webinars, #it_projects, #courses, #webinars, #hobby").hide();
-    $("#about_button").click(function(){
+    $("#info_button").click(function () {
+        $("#info").toggle();
+    });
+    $("#tech_skills_button").click(function () {
+        $("#tech_skills").toggle();
+    });
+    $("#about_button").click(function () {
         $("#about").toggle();
     });
     $("#exp_button").click(function(){
