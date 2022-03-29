@@ -15,16 +15,6 @@ ANIMATIONS
   }
 }
 
-@keyframes slideFromRight {
-  from {
-    transform: translateX(200%);
-  }
-
-  to {
-    transform: translateX(0%);
-  }
-}
-
 /*
 GLOBAL
 */
@@ -98,7 +88,7 @@ li {
 table {
   text-align: left;
   border-collapse: separate;
-  border-spacing: 10px 0;
+  border-spacing: 10px 10px;
 }
 
 /*
@@ -150,10 +140,6 @@ header a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   width: fit-content;
-}
-
-.stars {
-  font-size: 20px;
 }
 
 /*
