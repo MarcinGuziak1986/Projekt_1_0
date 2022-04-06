@@ -1,0 +1,12 @@
+ul {
+    margin: 0;
+    padding: 0;
+    padding-left: $grid-basic * 2;
+
+    & li {
+        font-size: $font-size-4;
+        line-height: $line-height-large;
+        list-style-position: inside;
+        padding-right: $grid-basic * 2;
+    }
+}

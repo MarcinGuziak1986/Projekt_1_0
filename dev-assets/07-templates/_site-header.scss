@@ -1,0 +1,14 @@
+.t-site-header {
+    
+    .o-col {
+        justify-content: center;
+        display: flex;
+    }
+
+    &__item {
+        margin-bottom: $grid-basic;
+        margin-left: $grid-basic;
+        margin-right: $grid-basic;
+        margin-top: $grid-basic;
+    }
+}

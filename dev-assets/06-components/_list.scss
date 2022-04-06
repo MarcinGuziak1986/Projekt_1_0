@@ -1,0 +1,9 @@
+.c-list {
+    &__item {
+        margin-bottom: $grid-basic;
+    }
+
+    &--unstyled {
+        list-style-type: none;
+    }
+}

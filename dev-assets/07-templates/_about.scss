@@ -1,0 +1,18 @@
+.t-about {
+    
+    background-color: $main;
+
+    &__left {
+        height: fit-content;
+    }
+
+    &__right {
+        height: fit-content;
+        padding-bottom: $grid-basic * 2;
+        padding-top: $grid-basic * 2;
+
+        @include medium-up {
+            text-align: justify;
+        }
+    }
+}

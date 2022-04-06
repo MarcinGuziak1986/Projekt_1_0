@@ -1,0 +1,10 @@
+body {
+    background-color: $body;
+    color: $black;
+    font-family: "Montserrat", sans-serif;
+    font-size: $font-size-4;
+    font-weight: 500;
+    line-height: $line-height-basic;
+    margin: 0;
+    padding: 0 $grid-basic * 4;
+}

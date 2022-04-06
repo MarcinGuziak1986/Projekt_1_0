@@ -1,0 +1,80 @@
+.o-col {
+    width: 100%;
+
+    &--md25 {
+        @include medium-up {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+    }
+
+    &--md30 {
+        @include medium-up {
+            flex: 0 0 30%;
+            max-width: 30%;
+        }
+    }
+
+    &--md33 {
+        @include medium-up {
+            flex: 0 0 33.3333%;
+            max-width: 33.3333%;
+        }
+    }
+
+    &--md50 {
+        @include medium-up {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+
+    &--md66 {
+        @include medium-up {
+            flex: 0 0 66.6666%;
+            max-width: 66.6666%;
+        }
+    }
+
+    &--md70 {
+        @include medium-up {
+            flex: 0 0 70%;
+            max-width: 70%;
+        }
+    }
+
+    &--md75 {
+        @include large-up {
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+    }
+
+    &--lg25 {
+        @include large-up {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+    }
+
+    &--lg33 {
+        @include large-up {
+            flex: 0 0 33.3333%;
+            max-width: 33.3333%;
+        }
+    }
+
+    &--lg50 {
+        @include large-up {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+
+    &--lg75 {
+        @include large-up {
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+    }
+}
