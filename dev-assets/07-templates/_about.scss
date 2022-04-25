@@ -9,9 +9,9 @@
     &__right {
         height: fit-content;
         padding-bottom: $grid-basic * 2;
-        padding-top: $grid-basic * 2;
 
         @include medium-up {
+            padding-top: $grid-basic * 2;
             text-align: justify;
         }
     }

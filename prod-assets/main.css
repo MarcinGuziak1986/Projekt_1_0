@@ -182,10 +182,10 @@ a {
     height: fit-content; }
   .t-about__right {
     height: fit-content;
-    padding-bottom: 20px;
-    padding-top: 20px; }
+    padding-bottom: 20px; }
     @media (min-width: 800px) {
       .t-about__right {
+        padding-top: 20px;
         text-align: justify; } }
 
 .t-site-header .o-col {
